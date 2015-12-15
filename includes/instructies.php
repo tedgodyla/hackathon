@@ -10,7 +10,7 @@
 
 ?>
 
-<section class="container hero">
+<section class="container brown">
     <section class="wrapper">
         <div class="column-mid-left">
         	<h1>Instructies</h1>

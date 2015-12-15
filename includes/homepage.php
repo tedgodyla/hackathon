@@ -16,16 +16,16 @@
         <p class="readmore"> Lees meer </p>
     </section>
 </section>
-<section class="container blue">
+<section class="container white">
     <section class="wrapper">
-        <div class="column-mid-left">
+        <div class="column-small-left">
 
             <img src="/hackathon/lib/images/knuffel.png" alt="">
         </div>
-        <div class="column-mid-right">
+        <div class="column-big-right">
 
             <h2>dfasfdsafdsa</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempus nunc mi, sed sollicitudin dolor pharetra a. Aliquam erat volutpat. In hac habitasse platea dictumst. Donec eget imperdiet est, at porta tellus. Donec non tincidunt quam. Aliquam enim felis, pretium a diam nec, tristique porttitor massa. Duis at pellentesque nulla. Curabitur nisl felis, congue a nulla nec, semper interdum neque. Phasellus interdum nulla vitae tincidunt eleifend. Vivamus viverra massa eget consectetur aliquam. Donec varius libero velit, non sodales libero semper non.</p>
+            <p>De conflict landen: Kinderen voor elkaar, kinderen in deze landen en in deze omstandigheden moeten geholpen worden om hun trauma’s te overkomen/te uiten en om hun herinneringen te confronteren: dit doormiddel van praten, schrijven of het uitbeelden. Door de onderdelen voor de knuffels laten we weten dat we om elkaar geven, ze staan er niet alleen voor.</p>
         </div>
         <div class="clear"></div>
 
