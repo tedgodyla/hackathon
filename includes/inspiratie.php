@@ -33,6 +33,10 @@
 		$items = array_reverse($items);
 	}
 
+	$newclass = (!$sort || $sort === "new") ? " class='active'" : "";
+	$viewsclass = ($sort === "views") ? " class='active'" : "";
+	$abcclass = ($sort === "abc") ? " class='active'" : "";
+
 ?>
 
 <section class="container">
@@ -40,9 +44,9 @@
 		<h1>Inspiratie</h1>
 		<section class="sort">
 			Sorteer op:
-			<a href="/hackathon/?page=inspiratie&sort=new">Nieuwste</a>
-			<a href="/hackathon/?page=inspiratie&sort=abc">Alfabet</a>
-			<a href="/hackathon/?page=inspiratie&sort=views">Views</a>
+			<a<?= $newclass; ?> href="/hackathon/?page=inspiratie&sort=new">Nieuwste</a>
+			<a<?= $abcclass; ?> href="/hackathon/?page=inspiratie&sort=abc">Alfabet</a>
+			<a<?= $viewsclass; ?> href="/hackathon/?page=inspiratie&sort=views">Views</a>
 		</section>
 
 		<ul class="inspiratie gridlist">
