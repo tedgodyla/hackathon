@@ -9,7 +9,7 @@
 <section class="container white">
     <section class="wrapper">
         <div class="column-center">
-            <h2> TeddyPy helpt de stille slachtoffer</h2>
+            <h2> Ontwerp en maak onderdelen voor de Teddypy van een ander</h2>
             <p>Samen met de TeddyPy start het kind een verwerkingsfase. De TeddyPy begint hier in Nederland waar de stukjes 
                 voor de TeddyPy gemaakt worden, die de kinderen in conflictlanden kunnen gebruiken om hun knuffel 'eigen' te maken. Door persoonlijke band met de knuffel
                 speelt TeddyPy een rol in de traumaverwerking van het kind. Dit maakt bij het kind plek vrij voor educatie.</p>
@@ -40,7 +40,7 @@
     <section class="wrapper">
         <div class="column-center">
             <h2>Hulp van overal</h2>
-            <p>TeddyPy stukjes worden niet alleen niet Nederlandland gemaakt, maar overal ter wereld. Met zijn alle helpen wij het kind weer kind te zijn.</p><br><br>
+            <p>TeddyPy stukjes worden niet alleen in Nederland gemaakt, maar overal ter wereld. Met z'n allen helpen wij het kind weer kind te zijn.</p><br><br>
             <img src="/hackathon/lib/images/kaart.png" width="500" alt="">
         <div class="clear"></div>
     </section>
