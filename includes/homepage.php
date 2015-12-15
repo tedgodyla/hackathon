@@ -2,8 +2,8 @@
 
     <section class="wrapper">
 
-        <h1 class="slogan"> Keep them hugging </h1>
-        <h3 class="onderzin"> Help een getraumatiseerd kind in een conflictgebied</h3>
+        <h1 class="slogan">Keep them hugging</h1>
+        <h3 class="onderzin">Help een getraumatiseerd kind<br>in een conflictgebied</h3>
         <!-- <div class="column-mid-left">
 
             <img src="/hackathon/lib/images/meisjesbeer.png" alt="">
@@ -18,8 +18,8 @@
 <section class="container white">
     <section class="wrapper">
         <div class="column-center">
-            <h2> TeddyPy helpt</h2>
-            <p> Samen met de TeddyPy start het kind een verwerkingsfase, zodat er later meer plek is voor educatie.</p>
+            <h2>TeddyPy helpt de stille slachtoffers</h2>
+            <p>Samen met de TeddyPy start het kind een verwerkingsfase, zodat er later meer plek is voor educatie.</p>
         </div>
         <div class="clear"></div>
     </section>

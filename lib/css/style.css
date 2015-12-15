@@ -233,6 +233,9 @@ nav ul > li.active > a {
     font-family: custom;
     text-align: right;
     padding-bottom: 1em;
+    font-size: 1.4em;
+    line-height: 2em;
+    margin-top: 1em;
 }
 
 .readmore {
@@ -431,8 +434,10 @@ section.white {
 }
 
 section.brown {
-    background: #a77d4e;
+    background: ;
     padding: 3em 0;
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
     color: #fff;
 }
 
