@@ -31,25 +31,22 @@ body {
 h1, h2, h3, h4, h5, h6 {
     margin: 0em 0em 0em;
     line-height: 1.2em;
+}
+
+h1 {
+    font-size: 2.5em;
     font-family: custom;
     text-rendering: optimizeLegibility;
     padding-top: 0.5em;
 }
 
-h1 {
-    font-size: 2.5em;
-    font-weight: 600;
-}
-
 h2 {
-      font-size: 2em;
+    font-size: 2em;
 }
 
 h3 {
-      font-size: 1.2em;
+    font-size: 1.2em;
 }
-
-
 
 p,
 li,
@@ -99,7 +96,10 @@ a.btn:hover {
 /* ------------------------------*/
 
 body > header {
-    margin-top: 1em;
+    margin-top: 0em;
+    padding-top: 1em;
+    height: 5em; 
+    background-color: #f2e9dd;
 }
 
 body > header .logo {
@@ -144,17 +144,44 @@ nav ul > li {
 nav ul > li > a {
     position: relative;
     display: block;
+    border-radius: .2em;
     padding: 5px 8px;
     text-decoration: none;
     background-color: #2497d3;
     color: #FFFFFF;
     width: 6em;
     text-align: center;
+     transition: .2s;
 }
 
-nav ul > li.active > a {
-    text-decoration: underline;
+nav ul > li > a:hover {
+       background-color: #a77d4e;
+       transition: .2s;
 }
+nav ul > li.active > a {
+    background-color: #a77d4e;
+  
+}
+
+.wrapper .sort a {
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    padding: 0.3em;
+    padding-left: .7em;
+    padding-right: .7em;
+    border-radius: .2em;
+    margin: 0.3em;
+    background-color: #2497d3;
+
+}
+
+.sort {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
 
 /* ------------------------------*/
 /* ---------- CONTAINER ---------- */
@@ -231,8 +258,9 @@ ul.gridlist > li:hover > header {
 }
 
 ul.gridlist > li > header h3 {
-	float: left;
-	margin-left: 0.5em;
+    float: left;
+    margin-left: 1em;
+    margin-top: 10.7em;
 }
 
 ul.gridlist > li > header h3 a {
@@ -251,49 +279,49 @@ ul.gridlist > li > header .details {
 /* ------------------------------*/
 
 .popup-background {
-	display: none;
-	position: fixed;
-	z-index: 9;
-	top: 0; left: 0; bottom: 0; right: 0;
-	background: rgba(200,200,200,0.9);
+    display: none;
+    position: fixed;
+    z-index: 9;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background: rgba(200,200,200,0.9);
 }
 
 .popup {
-	display: none;
-	position: fixed;
-	top: 3em;
-	left: 0px;
-	width: 100%;
-	z-index: 10;
+    display: none;
+    position: fixed;
+    top: 3em;
+    left: 0px;
+    width: 100%;
+    z-index: 10;
 }
 
 .popup .content {
-	position: relative;
-	background: #fff;
-	padding: 2em;
+    position: relative;
+    background: #fff;
+    padding: 2em;
 }
 
 .popup .content .close {
-	position: absolute;
-	top: 2em; right: 2em;
-	width: 2em;
-	height: 2em;
-	background: #000;
-	cursor: pointer;
+    position: absolute;
+    top: 2em; right: 2em;
+    width: 2em;
+    height: 2em;
+    background: #000;
+    cursor: pointer;
 }
 
 .popup .content .main {
-	float: left;
-	width: calc(60% - 2em);
+    float: left;
+    width: calc(60% - 2em);
 }
 
 .popup .content .main .photo img {
-	width: 100%;
+    width: 100%;
 }
 
 .popup .content .info {
-	float: right;
-	width: 40%;
+    float: right;
+    width: 40%;
 }
 
 /* ------------------------------*/
@@ -302,6 +330,35 @@ ul.gridlist > li > header .details {
 
 .clear {
     clear: both;
+}
+
+/* ------------------------------*/
+/* ----------- hero ------------ */
+/* ------------------------------*/
+section.hero > section.wrapper {
+    display: flex;
+    margin-top: 3em;
+}
+
+div.custom_bear {
+    display: flex;
+    background-color: #000;
+    height: 18em;
+    width: 30%;
+}
+
+div.photo {
+    display: flex;
+    background-color: aqua;
+    height: 18em;
+    width: 50%;
+    margin-left: auto;
+}
+
+div.info {
+    margin-top: 3em;
+    height: 25em;
+    background-color: #2497d3;
 }
 
 /* ------------------------------*/

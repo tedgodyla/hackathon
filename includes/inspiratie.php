@@ -39,7 +39,7 @@
 	<section class="wrapper">
 		<h1>Inspiratie</h1>
 		<section class="sort">
-			Sorteer op
+			Sorteer op:
 			<a href="/hackathon/?page=inspiratie&sort=new">Nieuwste</a>
 			<a href="/hackathon/?page=inspiratie&sort=abc">Alfabet</a>
 			<a href="/hackathon/?page=inspiratie&sort=views">Views</a>
