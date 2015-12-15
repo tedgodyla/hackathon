@@ -225,19 +225,19 @@ nav ul > li.active > a {
 
 .slogan {
     font-size: 3em;
-    text-align: center;
+    text-align: right;
     padding-bottom: 0em;
 }
 
 .onderzin {
     font-family: custom;
-    text-align: center;
+    text-align: right;
     padding-bottom: 1em;
 }
 
 .readmore {
     text-align: center;
-    margin-top: 2em;
+    margin-top: 15em;
 }
 /* ------------------------------*/
 /* ---------- CONTAINER ---------- */
