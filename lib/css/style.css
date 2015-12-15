@@ -45,6 +45,7 @@ h2 {
     font-family: custom;
     text-rendering: optimizeLegibility;
     padding-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 h3 {
@@ -55,6 +56,10 @@ p,
 li,
 blockquote {
     line-height: 1.6em;
+}
+
+p {
+    max-width: 36em;
 }
 
 em {
@@ -179,12 +184,16 @@ nav ul > li.active > a {
 
 }
 
-.sort {
+.opties {
     margin-top: 1em;
     margin-bottom: 1em;
 }
 
-.sort a {
+.opties .sort {
+    float: left;
+}
+
+.opties .sort a {
     font-size: 0.9em;
     display: inline-block;
     text-decoration: none;
@@ -195,9 +204,23 @@ nav ul > li.active > a {
     background: #aaa;
 }
 
-
-.sort a.active {
+.opties .sort a.active {
     background: #a77d4e;
+}
+
+.opties .uploaden {
+    float: right;
+}
+
+.opties .uploaden a {
+    font-size: 0.9em;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5em 0.7em;
+    border-radius: .2em;
+    margin: 0.3em;
+    background: #2497d3;
 }
 
 .slogan {
@@ -305,6 +328,10 @@ ul.gridlist > li > header .details {
     float: right;
     color: #fff;
     margin-right: 0.5em;
+}
+
+ul.gridlist > li > header .details .views span {
+    margin-left: 0.2em;
 }
 
 /* ------------------------------*/
@@ -444,6 +471,17 @@ div.column-mid-right {
     width: calc(50% - 2em);
     margin-left: 1em;
     float: right;
+}
+
+.profile div.column-big-right {
+    width: calc(80% - 2em);
+    margin-left: 2em;
+    float: right;
+}
+
+.profile div.column-small-left {
+    width: 20%;
+    float: left;
 }
 
 div.custom_bear {

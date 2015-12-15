@@ -11,6 +11,7 @@
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
 	
 	<link href="lib/css/reset.css" rel="stylesheet">
+	<link href="lib/css/icons.css" rel="stylesheet">
 	<link href="lib/css/style.css" rel="stylesheet">
 
 	<!--[if lt IE 9]>

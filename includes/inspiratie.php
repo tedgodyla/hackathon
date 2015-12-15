@@ -4,12 +4,12 @@
 
 	$items = array();
 	$items[] = array('slug' => 'panda', 'title' => 'Panda', 'views' => '123', 'fav' => true, 'imagename' => 'img001.jpg');
-	$items[] = array('slug' => 'zebra', 'title' => 'zebra', 'views' => '234', 'fav' => false, 'imagename' => 'img001.jpg');
-	$items[] = array('slug' => 'paard', 'title' => 'paard', 'views' => '345', 'fav' => false, 'imagename' => 'img001.jpg');
-	$items[] = array('slug' => 'leeuw', 'title' => 'leeuw', 'views' => '456', 'fav' => false, 'imagename' => 'img001.jpg');
-	$items[] = array('slug' => 'chimp', 'title' => 'chimp', 'views' => '146', 'fav' => true, 'imagename' => 'img001.jpg');
-	$items[] = array('slug' => 'eland', 'title' => 'eland', 'views' => '952', 'fav' => false, 'imagename' => 'img001.jpg');
-	$items[] = array('slug' => 'koala', 'title' => 'koala', 'views' => '421', 'fav' => false, 'imagename' => 'img001.jpg');
+	$items[] = array('slug' => 'zebra', 'title' => 'Zebra', 'views' => '234', 'fav' => false, 'imagename' => 'img001.jpg');
+	$items[] = array('slug' => 'paard', 'title' => 'Paard', 'views' => '345', 'fav' => false, 'imagename' => 'img001.jpg');
+	$items[] = array('slug' => 'leeuw', 'title' => 'Leeuw', 'views' => '456', 'fav' => false, 'imagename' => 'img001.jpg');
+	$items[] = array('slug' => 'chimp', 'title' => 'Chimp', 'views' => '146', 'fav' => true, 'imagename' => 'img001.jpg');
+	$items[] = array('slug' => 'eland', 'title' => 'Eland', 'views' => '952', 'fav' => false, 'imagename' => 'img001.jpg');
+	$items[] = array('slug' => 'koala', 'title' => 'Koala', 'views' => '421', 'fav' => false, 'imagename' => 'img001.jpg');
 
 	if ($sort === "abc")
 	{
@@ -52,7 +52,7 @@
 			</p>
         </div>
         <div class="column-mid-right">
-        	<img src="http://placekitten.com/450/150" />
+        	<img src="/hackathon/lib/images/inspiratie.jpg" />
         </div>
         <div class="clear"></div>
     </section>
@@ -60,12 +60,18 @@
 
 <section class="container">
 	<section class="wrapper">
-		<section class="sort">
-			Sorteer op:
-			<a<?= $newclass; ?> href="/hackathon/?page=inspiratie&sort=new">Nieuwste</a>
-			<a<?= $abcclass; ?> href="/hackathon/?page=inspiratie&sort=abc">Alfabet</a>
-			<a<?= $viewsclass; ?> href="/hackathon/?page=inspiratie&sort=views">Views</a>
-		</section>
+		<div class="opties">
+			<section class="sort">
+				Sorteer op:
+				<a<?= $newclass; ?> href="/hackathon/?page=inspiratie&sort=new">Nieuwste</a>
+				<a<?= $abcclass; ?> href="/hackathon/?page=inspiratie&sort=abc">Alfabet</a>
+				<a<?= $viewsclass; ?> href="/hackathon/?page=inspiratie&sort=views">Views</a>
+			</section>
+			<section class="uploaden">
+				<a href="/hackathon/?page=inspiratie">Deel jouw Teddypy</a>
+			</section>
+			<div class="clear"></div>
+		</div>
 		<ul class="inspiratie gridlist">
 			<?php foreach ($items as $itemkey => $itemprops): ?>
 				<?php $faved = ($itemprops['fav'] === true) ? 'fav active' : 'fav'; ?>			
@@ -76,7 +82,7 @@
 					<header>
 						<h3><a href="/hackathon/?page=inspiratie#<?= $itemprops['slug']; ?>"><?= $itemprops['title']; ?></a></h3>
 						<div class="details">
-							<div class="views"><?= $itemprops['views']; ?></div>
+							<div class="views icon icon-eye"><span><?= $itemprops['views']; ?></span></div>
 							<div class="<?= $faved; ?>"></div>
 						</div>
 					</header>
