@@ -19,8 +19,23 @@
 
 <section class="container white">
     <section class="wrapper">
-        <div class="column-small-left">
+        <div class="column-center">
+            <h2>Deze kinderen hebben therapie nodig</h2>
+            <p>Korte dummy text hier.</p>
+        </div>
+        <div class="clear"></div>
+    </section>
+</section>
 
+<section class="images">
+    <div class="left-full"></div>
+    <div class="right-top"></div>
+    <div class="right-bottom"></div>
+</section>
+
+<section class="container white">
+    <section class="wrapper">
+        <div class="column-small-left">
             <img src="/hackathon/lib/images/knuffel.png" alt="">
         </div>
         <div class="column-big-right">
@@ -28,16 +43,5 @@
             <p>Door Teddypy kunnen kinderen hun opgelopen trauma verwerken. Hierdoor kunnen zij genieten van het naar school gaan en nieuwe dingen leren. Op deze manier kunnen zij veilig aan hun toekomst werken. Teddypy is te personaliseren door het kind. Soorten kleuren, texturen en structuren zorgen voor veel variatie tussen de Teddypy’s. Zo draagt de Teddypy ook bij aan de toekomst dat ze er mee verder kunnen. Wil je ook helpen? Kijk wat jou school of tehuis kan doen. Zorg dat meer mensen zich hiervoor gaan inzetten.</p>
         </div>
         <div class="clear"></div>
-
-    </section>
-</section>
-
-<section class="container blue">
-    <section class="wrapper">
-        <div class="center-text">
-
-        </div>
-        <div class="clear"></div>
-
     </section>
 </section>
