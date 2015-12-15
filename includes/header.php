@@ -21,6 +21,7 @@
 	<script src="lib/js/functions.js"></script>
 	<script src="lib/js/events.js"></script>
 	<script src="lib/js/interaction.js"></script>
+	<script src="lib/js/animation.js"></script>
 	<script src="lib/js/main.js"></script>
 	<title><?= $title ?></title>
 </head>

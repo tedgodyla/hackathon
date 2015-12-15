@@ -210,6 +210,42 @@ ul.inspiration > li > header .details {
 } 
 
 /* ------------------------------*/
+/* ---------- POPUP ---------- */
+/* ------------------------------*/
+
+.popup-background {
+	display: none;
+	position: fixed;
+	z-index: 9;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: rgba(200,200,200,0.9);
+}
+
+.popup {
+	display: none;
+	position: fixed;
+	top: 3em;
+	left: 0px;
+	width: 100%;
+	z-index: 10;
+}
+
+.popup .content {
+	background: #fff;
+	padding: 2em;
+}
+
+.popup .content .main {
+	float: left;
+	width: calc(60% - 2em);
+}
+
+.popup .content .info {
+	float: right;
+	width: 40%;
+}
+
+/* ------------------------------*/
 /* ---------- SPECIAL ---------- */
 /* ------------------------------*/
 
