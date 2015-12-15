@@ -9,7 +9,7 @@
 			</p>
         </div>
         <div class="column-mid-right">
-        	<img src="/hackathon/lib/images/inspiratie.jpg" />
+        	<img src="/hackathon/lib/images/meedoen.jpg" />
         </div>
         <div class="clear"></div>
     </section>
