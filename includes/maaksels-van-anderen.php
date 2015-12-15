@@ -1,1 +1,0 @@
-<h1>Maaksels van anderen</h1>

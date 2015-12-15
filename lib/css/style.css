@@ -375,10 +375,11 @@ section.blue {
 
 section img {
     max-width: 100%;
+    border-radius: 0.5em;
 }
 
 div.column-big-left {
-    width: calc(66.666% - 2em);
+    width: calc(66.666% - 4em);
     margin-right: 2em;
     float: left;
 }
@@ -389,7 +390,7 @@ div.column-small-left {
 }
 
 div.column-big-right {
-    width: calc(66.666% - 2em);
+    width: calc(66.666% - 4em);
     margin-left: 2em;
     float: right;
 }
@@ -400,13 +401,13 @@ div.column-small-right {
 }
 
 div.column-mid-left {
-    width: calc(50% - 1em);
+    width: calc(50% - 2em);
     margin-right: 1em;
     float: left;
 }
 
 div.column-mid-right {
-    width: calc(50% - 1em);
+    width: calc(50% - 2em);
     margin-left: 1em;
     float: right;
 }

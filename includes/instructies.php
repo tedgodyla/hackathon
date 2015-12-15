@@ -1,13 +1,12 @@
 <?php
 
 	$items = array();
-	$items[] = array('slug' => 'oortjes', 'title' => 'Oortjes', 'imagename' => 'img001.jpg');
-	$items[] = array('slug' => 'staart', 'title' => 'Staart', 'imagename' => 'img001.jpg');
-	$items[] = array('slug' => 'voetjes', 'title' => 'Voetjes', 'imagename' => 'img001.jpg');
-	$items[] = array('slug' => 'strikje', 'title' => 'Strikje', 'imagename' => 'img001.jpg');
-	$items[] = array('slug' => 'ogen', 'title' => 'Ogen', 'imagename' => 'img001.jpg');
-	$items[] = array('slug' => 'neusje', 'title' => 'Neusje', 'imagename' => 'img001.jpg');
-	$items[] = array('slug' => 'versiering', 'title' => 'Versiering', 'imagename' => 'img001.jpg');
+	$items[] = array('slug' => 'oortjes', 'title' => 'Oortjes', 'imagename' => 'oren.png');
+	$items[] = array('slug' => 'staart', 'title' => 'Staart', 'imagename' => 'staart.png');
+	$items[] = array('slug' => 'voetjes', 'title' => 'Voetjes', 'imagename' => 'voeten.png');
+	$items[] = array('slug' => 'strikje', 'title' => 'Strikje', 'imagename' => 'strik.png');
+	$items[] = array('slug' => 'armen', 'title' => 'Armen', 'imagename' => 'armen.png');
+	$items[] = array('slug' => 'versiering', 'title' => 'Versiering', 'imagename' => 'extra.png');
 
 ?>
 
