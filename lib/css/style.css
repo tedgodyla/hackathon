@@ -246,6 +246,10 @@ ul.inspiration > li > header .details {
 	width: calc(60% - 2em);
 }
 
+.popup .content .main .photo img {
+	width: 100%;
+}
+
 .popup .content .info {
 	float: right;
 	width: 40%;
