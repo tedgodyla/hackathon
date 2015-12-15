@@ -89,7 +89,7 @@ a.btn:hover {
 /* ------------------------------*/
 
 body > header {
-
+    margin-top: 1em;
 }
 
 body > header .logo {
@@ -99,9 +99,10 @@ body > header .logo {
 
 body > header .logo a {
     display: block;
-    width: 23em;
-    height: 5em;
+    width: 15em;
+    height: 3.2em;
     background-image: url(../images/teddypy.png);
+    background-size: 15em;
 }
 
 /* ------------------------------*/
