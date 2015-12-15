@@ -19,7 +19,9 @@
     <section class="wrapper">
         <div class="column-center">
             <h2> TeddyPy helpt</h2>
-            <p> Samen met de TeddyPy start het kind een verwerkingsfase, zodat er later meer plek is voor educatie.</p>
+            <p> Samen met de TeddyPy start het kind een verwerkingsfase, zodat er later meer plek is voor educatie. In Nederland maken we onderdelen 
+                voor de TeddyPy, dit de kinderen in conflictlanden kunnen gebruiken om hun knuffel 'eigen' te maken. Door persoonlijke band met de knuffel
+                speelt TeddyPy een rol in de traumaverwerking van het kind. </p>
         </div>
         <div class="clear"></div>
     </section>
