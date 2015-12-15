@@ -267,6 +267,10 @@ ul.gridlist {
     display: block;
 }
 
+ul.instructies {
+    margin-top: 2em;
+}
+
 ul.gridlist > li {
     position: relative;
     display: block;
@@ -289,6 +293,12 @@ ul.gridlist > li .image {
     height: 100%;
     background-size: cover;
     background-position: center;
+}
+
+ul.instructies > li .image {
+    background-color: #2497d3;
+    background-size: 66% auto;
+    background-repeat: no-repeat;
 }
 
 ul.gridlist > li .image a {
