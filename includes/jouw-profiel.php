@@ -4,12 +4,11 @@
 
 	$items = array();
 	$items[] = array('slug' => 'panda', 'title' => 'Panda', 'views' => '123', 'type' => "fav", 'imagename' => 'img001.jpg');
-	$items[] = array('slug' => 'zebra', 'title' => 'zebra', 'views' => '234', 'type' => "upload", 'imagename' => 'img001.jpg');
-	$items[] = array('slug' => 'paard', 'title' => 'paard', 'views' => '345', 'type' => "upload", 'imagename' => 'img001.jpg');
-	$items[] = array('slug' => 'leeuw', 'title' => 'leeuw', 'views' => '456', 'type' => "upload", 'imagename' => 'img001.jpg');
-	$items[] = array('slug' => 'chimp', 'title' => 'chimp', 'views' => '146', 'type' => "fav", 'imagename' => 'img001.jpg');
+	$items[] = array('slug' => 'zebra', 'title' => 'zebra', 'views' => '234', 'type' => "upload", 'imagename' => 'img002.jpg');
+	$items[] = array('slug' => 'paard', 'title' => 'paard', 'views' => '345', 'type' => "upload", 'imagename' => 'img003.jpg');
+	$items[] = array('slug' => 'leeuw', 'title' => 'leeuw', 'views' => '456', 'type' => "upload", 'imagename' => 'img002.jpg');
+	$items[] = array('slug' => 'chimp', 'title' => 'chimp', 'views' => '146', 'type' => "fav", 'imagename' => 'img003.jpg');
 	$items[] = array('slug' => 'eland', 'title' => 'eland', 'views' => '952', 'type' => "upload", 'imagename' => 'img001.jpg');
-	$items[] = array('slug' => 'koala', 'title' => 'koala', 'views' => '421', 'type' => "upload", 'imagename' => 'img001.jpg');
 
 	$temp_items = array();
 
@@ -86,7 +85,7 @@
 						<h3><a href="/hackathon/?page=inspiratie#<?= $itemprops['slug']; ?>"><?= $itemprops['title']; ?></a></h3>
 						<div class="details">
 							<div class="views icon icon-eye"><span><?= $itemprops['views']; ?></span></div>
-							<div class="<?= $faved; ?>"></div>
+							<div class="<?= $faved; ?> icon icon-heart"></div>
 						</div>
 					</header>
 				</li>
