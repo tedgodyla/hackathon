@@ -211,6 +211,22 @@ nav ul > li.active > a {
     background: #a77d4e;
 }
 
+.slogan {
+    font-size: 3em;
+    text-align: center;
+    padding-bottom: 0em;
+}
+
+.onderzin {
+    font-family: custom;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.readmore {
+    text-align: center;
+    margin-top: 2em;
+}
 /* ------------------------------*/
 /* ---------- CONTAINER ---------- */
 /* ------------------------------*/
@@ -325,7 +341,6 @@ ul.gridlist > li > header .details {
 
 .popup .content {
     position: relative;
-    background: #fff;
     padding: 2em;
 }
 
@@ -355,6 +370,11 @@ ul.gridlist > li > header .details {
     background-image: url(../images/cancel30.png);
 }
 
+section.content {
+    background: #a77d4e;
+    color: #FFF;
+}
+
 /* ------------------------------*/
 /* ---------- SPECIAL ---------- */
 /* ------------------------------*/
@@ -368,9 +388,12 @@ ul.gridlist > li > header .details {
 /* ------------------------------*/
 
 section.hero {
-    background: #a77d4e;
+    background: #ad885e;
+    height: 60%;
     padding: 3em 0;
+    background-size: cover;
     color: #fff;
+    background-image: url("http://placekitten.com/1240/500");
 }
 
 section.blue {
