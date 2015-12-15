@@ -91,7 +91,10 @@ a.btn:hover {
 /* ------------------------------*/
 
 body > header {
-    margin-top: 1em;
+    margin-top: 0em;
+    padding-top: 1em;
+    height: 5em; 
+    background-color: #f2e9dd;
 }
 
 body > header .logo {
@@ -136,16 +139,23 @@ nav ul > li {
 nav ul > li > a {
     position: relative;
     display: block;
+    border-radius: .2em;
     padding: 5px 8px;
     text-decoration: none;
     background-color: #2497d3;
     color: #FFFFFF;
     width: 6em;
     text-align: center;
+     transition: .2s;
 }
 
+nav ul > li > a:hover {
+       background-color: #a77d4e;
+       transition: .2s;
+}
 nav ul > li.active > a {
-    text-decoration: underline;
+    background-color: #a77d4e;
+  
 }
 
 /* ------------------------------*/
@@ -212,7 +222,7 @@ ul.inspiration > li > header h3 {
     float: left;
     margin-left: 1em;
     margin-top: 10.7em;
-    border-radius: .2em;
+
     color: white;
 }
 
