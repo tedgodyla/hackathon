@@ -25,7 +25,7 @@
 					<a href="/hackathon/?page=inspiratie#<?= $itemprops['slug']; ?>"></a>
 				</div>
 				<header>
-					<h3><a href="/hackathon/?page=inspiratie#<?= $itemprops['slug']; ?>"><?= $itemprops['title']; ?></a></h3>
+					<h3 class="imgdetail"><a  href="/hackathon/?page=inspiratie#<?= $itemprops['slug']; ?>"><?= $itemprops['title']; ?></a></h3>
 					<div class="details">
 						<div class="views"><?= $itemprops['views']; ?></div>
 						<div class="<?= $faved; ?>"></div>
