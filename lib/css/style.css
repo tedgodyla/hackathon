@@ -42,6 +42,9 @@ h1 {
 
 h2 {
     font-size: 2em;
+    font-family: custom;
+    text-rendering: optimizeLegibility;
+    padding-top: 0.5em;
 }
 
 h3 {
@@ -176,7 +179,7 @@ nav ul > li.active > a {
     padding: 0.5em 0.7em;
     border-radius: .2em;
     margin: 0.3em;
-    background: #999;
+    background: #aaa;
 }
 
 .sort a.active {
@@ -334,30 +337,61 @@ ul.gridlist > li > header .details {
 /* ------------------------------*/
 /* ----------- hero ------------ */
 /* ------------------------------*/
-section.hero > section.wrapper {
-    display: flex;
-    margin-top: 3em;
+
+section.hero {
+    background: #a77d4e;
+    padding: 3em 0;
+    color: #fff;
+}
+
+section.blue {
+    background: #2497d3;
+    padding: 3em 0;
+    color: #fff;
+}
+
+section img {
+    max-width: 100%;
+}
+
+div.column-big-left {
+    width: calc(66.666% - 2em);
+    margin-right: 2em;
+    float: left;
+}
+
+div.column-small-left {
+    width: 33%;
+    float: left;
+}
+
+div.column-big-right {
+    width: calc(66.666% - 2em);
+    margin-left: 2em;
+    float: right;
+}
+
+div.column-small-right {
+    width: 33%;
+    float: right;
+}
+
+div.column-mid-left {
+    width: calc(50% - 1em);
+    margin-right: 1em;
+    float: left;
+}
+
+div.column-mid-right {
+    width: calc(50% - 1em);
+    margin-left: 1em;
+    float: right;
 }
 
 div.custom_bear {
-    display: flex;
     background-color: #000;
     height: 18em;
-    width: 30%;
-}
-
-div.photo {
-    display: flex;
-    background-color: aqua;
-    height: 18em;
-    width: 50%;
-    margin-left: auto;
-}
-
-div.info {
-    margin-top: 3em;
-    height: 25em;
-    background-color: #2497d3;
+    width: 33.333%;
 }
 
 /* ------------------------------*/

@@ -1,30 +1,23 @@
-<section class="hero">
+<section class="container hero">
     <section class="wrapper">
-        <div class="custom_bear">
-        <!-- plaatje van de custom beer -->
+        <div class="column-small-left">
         </div>
-        <div class="photo">
-        <!-- foto van de persoon -->
+        <div class="column-big-right">
         </div>
+        <div class="clear"></div>
 
     </section>
 </section>
-<section class="container">
+<section class="container blue">
     <section class="wrapper">
-        <div class="info">
-            <div class="info_text">
-                <p>Tekst over teddypy</p>
-            </div>
-            <div class="info_photo">
-            <!-- plaatje van teddypy -->
-            </div>
+        <div class="column-mid-left">
+            <h2>dfasfdsafdsa</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempus nunc mi, sed sollicitudin dolor pharetra a. Aliquam erat volutpat. In hac habitasse platea dictumst. Donec eget imperdiet est, at porta tellus. Donec non tincidunt quam. Aliquam enim felis, pretium a diam nec, tristique porttitor massa. Duis at pellentesque nulla. Curabitur nisl felis, congue a nulla nec, semper interdum neque. Phasellus interdum nulla vitae tincidunt eleifend. Vivamus viverra massa eget consectetur aliquam. Donec varius libero velit, non sodales libero semper non.</p>
         </div>
-
-    </section>
-</section>
-<section class="container">
-    <section class="wrapper">
-
+        <div class="column-mid-right">
+            <img src="/hackathon/lib/images/knuffel.png" alt="">
+        </div>
+        <div class="clear"></div>
 
     </section>
 </section>
