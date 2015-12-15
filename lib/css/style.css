@@ -212,11 +212,16 @@ ul.gridlist > li > header h3 {
     float: left;
     margin-left: 1em;
     margin-top: 10.7em;
+    border-radius: .2em;
     color: white;
 }
 
 ul.gridlist > li > header h3 a{
     text-decoration: none;
+    margin: 0.3em;
+    padding-left: 3em;
+    padding: 0.3em;
+        background-color: rgba(0,0,0,0.3);
 }
 
 ul.gridlist > li > header .details {
@@ -225,6 +230,9 @@ ul.gridlist > li > header .details {
     margin-top: 0.3em;
     margin-top: 12.7em;
     margin-right: 1em;
+    padding: 0.3em;
+    margin: 0.3em;
+    background-color: rgba(0,0,0,0.3);
 }
 
 ul.gridlist > li > header:hover {
