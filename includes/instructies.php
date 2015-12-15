@@ -23,7 +23,7 @@
 			</p>
         </div>
         <div class="column-mid-right">
-        	<img src="http://placekitten.com/450/150" />
+        	<img src="/hackathon/lib/images/instructies.jpg" />
         </div>
         <div class="clear"></div>
     </section>

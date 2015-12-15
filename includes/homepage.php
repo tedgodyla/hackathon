@@ -12,8 +12,6 @@
             <img src="/hackathon/lib/images/ouderen.jpg" alt="">
         </div> -->
         <div class="clear"></div>
-
-        <p class="readmore"> Lees meer </p>
     </section>
 </section>
 
