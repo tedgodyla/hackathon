@@ -37,7 +37,15 @@
 
 <section class="container">
 	<section class="wrapper">
+	<section class="intro">
 		<h1>Inspiratie</h1>
+		<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+		 Nulla accumsan ligula nec accumsan ullamcorper. 
+		 In hac habitasse platea dictumst.
+		  Cum sociis natoque penatibus et magnis dis parturient montes,
+		   nascetur ridiculus mus. Integer vulputate nisi in neque pulvinar aliquam.</p>
+		   <img src="http://placekitten.com/450/150" />
+	</section>
 		<section class="sort">
 			Sorteer op:
 			<a href="/hackathon/?page=inspiratie&sort=new">Nieuwste</a>

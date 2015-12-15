@@ -176,6 +176,27 @@ nav ul > li.active > a {
     margin-bottom: 1em;
 }
 
+.intro {
+  padding-top: 1em;
+    height: 17em;
+
+}
+
+.intro h1 {
+    margin-bottom: .5em;
+}
+
+.intro > p {
+    width: 40%;
+    float: left;
+}
+
+.intro > img{
+
+    float: right;
+
+}
+
 
 
 /* ------------------------------*/
