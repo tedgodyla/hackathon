@@ -25,9 +25,7 @@
         		stukjes mee naar het rode kruis, waar het bezorgt wordt aan de kinderen in conflict gebieden.
 			</p>
 			<p>
-				<a class="btn" href="/hackathon/?page=meedoen&subpage=kom-langs">Basisschool</a>
-				<a class="btn" href="/hackathon/?page=meedoen&subpage=bestel">Bejaardentehuis</a>
-				<a class="btn" href="/hackathon/?page=meedoen&subpage=bestel">Anders</a>
+				<a class="btn" href="/hackathon/?page=meedoen&subpage=kom-langs">Bekijk de mogelijkheden</a>
 			</p>
         </div>
         <div class="column-mid-right">
@@ -38,7 +36,7 @@
         		oortjes, handjes, voetjes etc.
 			</p>
 			<p>
-				<a class="btn" href="/hackathon/?page=meedoen&subpage=kom-langs">Ga naar de winkel</a>
+				<a class="btn" href="/hackathon/?page=meedoen&subpage=kom-langs">Bekijk de kits</a>
 			</p>
         </div>
         <div class="clear"></div>
