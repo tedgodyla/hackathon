@@ -334,6 +334,23 @@ ul.gridlist > li > header .details .views span {
     margin-left: 0.2em;
 }
 
+ul.gridlist > li > header .details .views {
+    float: right;
+    margin-left: 0.8em;
+}
+
+ul.gridlist > li > header .details .fav {
+    position: relative;
+    float: right;
+    top: 0.1em;
+    color: #bcd5ee;
+    cursor: pointer;
+}
+
+ul.gridlist > li > header .details .fav.active {
+    color: #fff;
+}
+
 /* ------------------------------*/
 /* ---------- POPUP ---------- */
 /* ------------------------------*/
