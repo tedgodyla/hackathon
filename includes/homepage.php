@@ -24,7 +24,7 @@
         </div>
         <div class="column-mid-right">
 
-            <h2>dfasfdsafdsa</h2>
+            <h2>Wat is Teddypy?</h2>
             <p>Door Teddypy kunnen kinderen hun opgelopen trauma verwerken. Hierdoor kunnen zij genieten van het naar school gaan en nieuwe dingen leren. Op deze manier kunnen zij veilig aan hun toekomst werken. Teddypy is te personaliseren door het kind. Soorten kleuren, texturen en structuren zorgen voor veel variatie tussen de Teddypy’s. Zo draagt de Teddypy ook bij aan de toekomst dat ze er mee verder kunnen. Wil je ook helpen? Kijk wat jou school of tehuis kan doen. Zorg dat meer mensen zich hiervoor gaan inzetten.</p>
         </div>
         <div class="clear"></div>
