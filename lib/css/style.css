@@ -2,6 +2,11 @@
 /* ---------- MAIN ---------- */
 /* ------------------------------*/
 
+@font-face {
+	font-family: 'custom';
+	src: url('../fonts/custom.ttf');
+}
+
 html {
     font-size: 1em;
 }
@@ -30,18 +35,18 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-size: 2.5em;
-    font-weight: 600;
+    font-family: custom;
+    text-rendering: optimizeLegibility;
+    padding-top: 0.5em;
 }
 
 h2 {
-      font-size: 2em;
+    font-size: 2em;
 }
 
 h3 {
-      font-size: 1.2em;
+    font-size: 1.2em;
 }
-
-
 
 p,
 li,
@@ -93,7 +98,7 @@ a.btn:hover {
 body > header {
     margin-top: 0em;
     padding-top: 1em;
-    height: 5em; 
+    height: 5em;
     background-color: #f2e9dd;
 }
 
@@ -155,19 +160,6 @@ nav ul > li > a:hover {
 }
 nav ul > li.active > a {
     background-color: #a77d4e;
-  
-}
-
-.wrapper .sort a {
-    text-decoration: none;
-    background-color: green;
-    color: white;
-    padding: 0.3em;
-    padding-left: .7em;
-    padding-right: .7em;
-    border-radius: .2em;
-    margin: 0.3em;
-    background-color: #2497d3;
 
 }
 
@@ -197,7 +189,21 @@ nav ul > li.active > a {
 
 }
 
+.sort a {
+	font-size: 0.9em;
+	display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5em 0.7em;
+    border-radius: .2em;
+    margin: 0.3em;
+    background: #999;
+}
 
+
+.sort a.active {
+	background: #a77d4e;
+}
 
 /* ------------------------------*/
 /* ---------- CONTAINER ---------- */
@@ -229,9 +235,16 @@ ul.gridlist {
 ul.gridlist > li {
     position: relative;
     display: block;
-    width: 33.333%;
+    width: calc(33.333% - 0.666em);
+    margin-right: 1em;
+    margin-bottom: 1em;
     height: 15em;
     float: left;
+    overflow: hidden;
+}
+
+ul.gridlist > li:nth-child(3n+3) {
+    margin-right: 0;
 }
 
 ul.gridlist > li .image {
@@ -252,44 +265,34 @@ ul.gridlist > li .image a {
 ul.gridlist > li > header {
     position: absolute;
     z-index: 2;
-    bottom: 0; left: 0;
+    bottom: -2.5em;
+    left: 0;
     width: 100%;
-    height: 15em;
-    background: rgba(0,0,0,0.0);
-    transition: .5s;
+    height: 2em;
+    padding-top: 0.5em;
+    background: rgba(36,151,211,0.3);
+
+    transition: 0.5s;
+}
+
+ul.gridlist > li:hover > header {
+	bottom: 0;
 }
 
 ul.gridlist > li > header h3 {
     float: left;
     margin-left: 1em;
-    margin-top: 10.7em;
-
-    color: white;
 }
 
-ul.gridlist > li > header h3 a{
+ul.gridlist > li > header h3 a {
+	color: #fff;
     text-decoration: none;
-    margin: 0.3em;
-    padding-left: 3em;
-    padding: 0.3em;
-        background-color: rgba(0,0,0,0.3);
 }
 
 ul.gridlist > li > header .details {
     float: right;
-    color: white;
-    margin-top: 0.3em;
-    margin-top: 12.7em;
-    margin-right: 1em;
-    padding: 0.3em;
-    margin: 0.3em;
-    background-color: rgba(0,0,0,0.3);
-}
-
-ul.gridlist > li > header:hover {
-    background: rgba(36,151,211,0.3);
-    transition: .2s;
-
+    color: #fff;
+    margin-right: 0.5em;
 }
 
 /* ------------------------------*/
@@ -360,23 +363,32 @@ section.hero > section.wrapper {
 
 div.custom_bear {
     display: flex;
-    background-color: #000;
-    height: 18em;
-    width: 30%;
+    background-image: url(../images/meisjesbeer.png);
+    height: 15.5em;
+    width: 16em;
 }
 
 div.photo {
     display: flex;
-    background-color: aqua;
-    height: 18em;
+    background-image: url(../images/ouderen.jpg);
+    background-size: 120%;
+    height: 15em;
     width: 50%;
-    margin-left: auto;
+    margin: 0 2em 0 auto;
 }
 
 div.info {
     margin-top: 3em;
     height: 25em;
     background-color: #2497d3;
+}
+
+div.info_photo {
+    background-color: #fff;
+    width: 22em;
+    height: 22em;
+    margin-right: 1em;
+    margin-left: auto
 }
 
 /* ------------------------------*/
