@@ -17,6 +17,7 @@
             </div>
             <div class="info_photo">
             <!-- plaatje van teddypy -->
+            foto
             </div>
         </div>
 

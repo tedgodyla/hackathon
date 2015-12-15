@@ -98,7 +98,7 @@ a.btn:hover {
 body > header {
     margin-top: 0em;
     padding-top: 1em;
-    height: 5em; 
+    height: 5em;
     background-color: #f2e9dd;
 }
 
@@ -160,7 +160,7 @@ nav ul > li > a:hover {
 }
 nav ul > li.active > a {
     background-color: #a77d4e;
-  
+
 }
 
 .sort {
@@ -341,23 +341,32 @@ section.hero > section.wrapper {
 
 div.custom_bear {
     display: flex;
-    background-color: #000;
-    height: 18em;
-    width: 30%;
+    background-image: url(../images/meisjesbeer.png);
+    height: 15.5em;
+    width: 16em;
 }
 
 div.photo {
     display: flex;
-    background-color: aqua;
-    height: 18em;
+    background-image: url(../images/ouderen.jpg);
+    background-size: 120%;
+    height: 15em;
     width: 50%;
-    margin-left: auto;
+    margin: 0 2em 0 auto;
 }
 
 div.info {
     margin-top: 3em;
     height: 25em;
     background-color: #2497d3;
+}
+
+div.info_photo {
+    background-color: #fff;
+    width: 22em;
+    height: 22em;
+    margin-right: 1em;
+    margin-left: auto
 }
 
 /* ------------------------------*/
