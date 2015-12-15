@@ -237,8 +237,18 @@ ul.inspiration > li > header .details {
 }
 
 .popup .content {
+	position: relative;
 	background: #fff;
 	padding: 2em;
+}
+
+.popup .content .close {
+	position: absolute;
+	top: 2em; right: 2em;
+	width: 2em;
+	height: 2em;
+	background: #000;
+	cursor: pointer;
 }
 
 .popup .content .main {

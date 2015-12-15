@@ -4,6 +4,7 @@
 	<section class="popup inspiratie">
 		<section class="wrapper">
 			<section class="content">
+				<div class="close"></div>
 				<div class="main">
 					<div class="photo"></div>
 					<div class="details">
@@ -24,6 +25,7 @@
 	<section class="popup instructie">
 		<section class="wrapper">
 			<section class="content">
+				<div class="close"></div>
 				<div class="main">
 					<div class="movie">
 						<!-- <iframe width="100%" height="315" src="https://www.youtube.com/embed/3ur0vmu9E54" frameborder="0" allowfullscreen></iframe> -->
