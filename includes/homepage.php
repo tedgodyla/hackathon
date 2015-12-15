@@ -1,5 +1,5 @@
 <section class="container hero">
-    
+
     <section class="wrapper">
 
         <h1 class="slogan"> Keep them hugging </h1>
@@ -23,9 +23,8 @@
             <img src="/hackathon/lib/images/knuffel.png" alt="">
         </div>
         <div class="column-big-right">
-
-            <h2>dfasfdsafdsa</h2>
-            <p>De conflict landen: Kinderen voor elkaar, kinderen in deze landen en in deze omstandigheden moeten geholpen worden om hun trauma’s te overkomen/te uiten en om hun herinneringen te confronteren: dit doormiddel van praten, schrijven of het uitbeelden. Door de onderdelen voor de knuffels laten we weten dat we om elkaar geven, ze staan er niet alleen voor.</p>
+            <h2>Wat is Teddypy?</h2>
+            <p>Door Teddypy kunnen kinderen hun opgelopen trauma verwerken. Hierdoor kunnen zij genieten van het naar school gaan en nieuwe dingen leren. Op deze manier kunnen zij veilig aan hun toekomst werken. Teddypy is te personaliseren door het kind. Soorten kleuren, texturen en structuren zorgen voor veel variatie tussen de Teddypy’s. Zo draagt de Teddypy ook bij aan de toekomst dat ze er mee verder kunnen. Wil je ook helpen? Kijk wat jou school of tehuis kan doen. Zorg dat meer mensen zich hiervoor gaan inzetten.</p>
         </div>
         <div class="clear"></div>
 
