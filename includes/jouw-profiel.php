@@ -3,12 +3,12 @@
 	$sort = $_GET['sort'];
 
 	$items = array();
-	$items[] = array('slug' => 'panda', 'title' => 'Panda', 'views' => '123', 'type' => "fav", 'imagename' => 'img001.jpg');
-	$items[] = array('slug' => 'zebra', 'title' => 'zebra', 'views' => '234', 'type' => "upload", 'imagename' => 'img002.jpg');
-	$items[] = array('slug' => 'paard', 'title' => 'paard', 'views' => '345', 'type' => "upload", 'imagename' => 'img003.jpg');
-	$items[] = array('slug' => 'leeuw', 'title' => 'leeuw', 'views' => '456', 'type' => "upload", 'imagename' => 'img002.jpg');
-	$items[] = array('slug' => 'chimp', 'title' => 'chimp', 'views' => '146', 'type' => "fav", 'imagename' => 'img003.jpg');
-	$items[] = array('slug' => 'eland', 'title' => 'eland', 'views' => '952', 'type' => "upload", 'imagename' => 'img001.jpg');
+	$items[] = array('slug' => 'panda', 'title' => 'Poot', 'views' => '123', 'type' => "fav", 'imagename' => 'poot-beer.jpg');
+	$items[] = array('slug' => 'zebra', 'title' => 'Beer', 'views' => '234', 'type' => "upload", 'imagename' => 'img002.jpg');
+	$items[] = array('slug' => 'paard', 'title' => 'Oren', 'views' => '345', 'type' => "upload", 'imagename' => 'oor-beer.jpg');
+	$items[] = array('slug' => 'leeuw', 'title' => 'Hartje', 'views' => '456', 'type' => "upload", 'imagename' => 'groen-hart.jpg');
+	$items[] = array('slug' => 'chimp', 'title' => 'Beer', 'views' => '146', 'type' => "fav", 'imagename' => 'img003.jpg');
+	$items[] = array('slug' => 'eland', 'title' => 'Beertje', 'views' => '952', 'type' => "upload", 'imagename' => 'img001.jpg');
 
 	$temp_items = array();
 

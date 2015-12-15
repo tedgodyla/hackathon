@@ -3,12 +3,12 @@
 	$sort = $_GET['sort'];
 
 	$items = array();
-	$items[] = array('slug' => 'panda', 'title' => 'Panda', 'views' => '123', 'fav' => true, 'imagename' => 'img001.jpg');
-	$items[] = array('slug' => 'zebra', 'title' => 'Zebra', 'views' => '234', 'fav' => false, 'imagename' => 'img002.jpg');
-	$items[] = array('slug' => 'paard', 'title' => 'Paard', 'views' => '345', 'fav' => false, 'imagename' => 'img003.jpg');
-	$items[] = array('slug' => 'leeuw', 'title' => 'Leeuw', 'views' => '456', 'fav' => false, 'imagename' => 'img002.jpg');
-	$items[] = array('slug' => 'chimp', 'title' => 'Chimp', 'views' => '146', 'fav' => true, 'imagename' => 'img003.jpg');
-	$items[] = array('slug' => 'eland', 'title' => 'Eland', 'views' => '952', 'fav' => false, 'imagename' => 'img001.jpg');
+	$items[] = array('slug' => 'panda', 'title' => 'Staart', 'views' => '123', 'fav' => true, 'imagename' => 'staart-beer.jpg');
+	$items[] = array('slug' => 'zebra', 'title' => 'Oren', 'views' => '234', 'fav' => false, 'imagename' => 'oor-beer.jpg');
+	$items[] = array('slug' => 'paard', 'title' => 'Beer', 'views' => '345', 'fav' => false, 'imagename' => 'img003.jpg');
+	$items[] = array('slug' => 'leeuw', 'title' => 'Groen hart', 'views' => '456', 'fav' => false, 'imagename' => 'groen-hart.jpg');
+	$items[] = array('slug' => 'chimp', 'title' => 'Poot', 'views' => '146', 'fav' => true, 'imagename' => 'poot-beer.jpg');
+	$items[] = array('slug' => 'eland', 'title' => 'Blauw hart', 'views' => '952', 'fav' => false, 'imagename' => 'blauw-hart.jpg');
 
 	if ($sort === "abc")
 	{
