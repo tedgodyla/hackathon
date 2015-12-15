@@ -99,9 +99,9 @@ body > header .logo {
 
 body > header .logo a {
     display: block;
-    width: 10em;
-    height: 4em;
-    background: #000;
+    width: 23em;
+    height: 5em;
+    background-image: url(../images/teddypy.png);
 }
 
 /* ------------------------------*/
@@ -127,7 +127,7 @@ nav ul.menu-right {
 nav ul > li {
     position: relative;
     display: inline-block;
-    margin: 1em 1em 0 0;
+    margin: 1em .5em 0 0;
 }
 
 nav ul > li > a {
