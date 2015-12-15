@@ -3,8 +3,8 @@
 /* ------------------------------*/
 
 @font-face {
-	font-family: 'custom';
-	src: url('../fonts/custom.ttf');
+    font-family: 'custom';
+    src: url('../fonts/custom.ttf');
 }
 
 html {
@@ -193,8 +193,8 @@ nav ul > li.active > a {
 }
 
 .sort a {
-	font-size: 0.9em;
-	display: inline-block;
+    font-size: 0.9em;
+    display: inline-block;
     text-decoration: none;
     color: #fff;
     padding: 0.5em 0.7em;
@@ -205,7 +205,7 @@ nav ul > li.active > a {
 
 
 .sort a.active {
-	background: #a77d4e;
+    background: #a77d4e;
 }
 
 /* ------------------------------*/
@@ -280,7 +280,7 @@ ul.gridlist > li > header {
 }
 
 ul.gridlist > li:hover > header {
-	bottom: 0;
+    bottom: 0;
 }
 
 ul.gridlist > li > header h3 {
@@ -289,7 +289,7 @@ ul.gridlist > li > header h3 {
 }
 
 ul.gridlist > li > header h3 a {
-	color: #fff;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -331,7 +331,6 @@ ul.gridlist > li > header .details {
     top: 2em; right: 2em;
     width: 2em;
     height: 2em;
-    background: #000;
     cursor: pointer;
 }
 
@@ -347,6 +346,10 @@ ul.gridlist > li > header .details {
 .popup .content .info {
     float: right;
     width: 40%;
+}
+
+.close {
+    background-image: url(../images/cancel30.png);
 }
 
 /* ------------------------------*/
