@@ -26,7 +26,7 @@
 <section class="container white">
     <section class="wrapper">
         <div class="column-small-left">
-            <img src="/hackathon/lib/images/knuffel.png" alt="">
+            <img src="/hackathon/lib/images/beer-wijzen.jpg" alt="">
         </div>
         <div class="column-big-right">
             <h2>Wat is Teddypy?</h2>
