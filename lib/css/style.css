@@ -246,49 +246,49 @@ ul.gridlist > li > header:hover {
 /* ------------------------------*/
 
 .popup-background {
-	display: none;
-	position: fixed;
-	z-index: 9;
-	top: 0; left: 0; bottom: 0; right: 0;
-	background: rgba(200,200,200,0.9);
+    display: none;
+    position: fixed;
+    z-index: 9;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background: rgba(200,200,200,0.9);
 }
 
 .popup {
-	display: none;
-	position: fixed;
-	top: 3em;
-	left: 0px;
-	width: 100%;
-	z-index: 10;
+    display: none;
+    position: fixed;
+    top: 3em;
+    left: 0px;
+    width: 100%;
+    z-index: 10;
 }
 
 .popup .content {
-	position: relative;
-	background: #fff;
-	padding: 2em;
+    position: relative;
+    background: #fff;
+    padding: 2em;
 }
 
 .popup .content .close {
-	position: absolute;
-	top: 2em; right: 2em;
-	width: 2em;
-	height: 2em;
-	background: #000;
-	cursor: pointer;
+    position: absolute;
+    top: 2em; right: 2em;
+    width: 2em;
+    height: 2em;
+    background: #000;
+    cursor: pointer;
 }
 
 .popup .content .main {
-	float: left;
-	width: calc(60% - 2em);
+    float: left;
+    width: calc(60% - 2em);
 }
 
 .popup .content .main .photo img {
-	width: 100%;
+    width: 100%;
 }
 
 .popup .content .info {
-	float: right;
-	width: 40%;
+    float: right;
+    width: 40%;
 }
 
 /* ------------------------------*/
@@ -297,6 +297,35 @@ ul.gridlist > li > header:hover {
 
 .clear {
     clear: both;
+}
+
+/* ------------------------------*/
+/* ----------- hero ------------ */
+/* ------------------------------*/
+section.hero > section.wrapper {
+    display: flex;
+    margin-top: 3em;
+}
+
+div.custom_bear {
+    display: flex;
+    background-color: #000;
+    height: 18em;
+    width: 30%;
+}
+
+div.photo {
+    display: flex;
+    background-color: aqua;
+    height: 18em;
+    width: 50%;
+    margin-left: auto;
+}
+
+div.info {
+    margin-top: 3em;
+    height: 25em;
+    background-color: #2497d3;
 }
 
 /* ------------------------------*/
