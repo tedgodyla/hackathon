@@ -1,0 +1,164 @@
+/* ------------------------------*/
+/* ---------- MAIN ---------- */
+/* ------------------------------*/
+
+html {
+	font-size: 1em;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	/*font-family: "Open Sans", "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;*/
+	/*padding-top: 70px;*/
+	background: #f4f4f4;
+	color: #444;
+}
+
+/* ------------------------------*/
+/* ---------- TEXT SETTINGS ---------- */
+/* ------------------------------*/
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0em 0em 0em;
+	line-height: 1.2em;
+}
+
+h1 {
+	font-size: 2.5em;
+	font-weight: 600;
+}
+
+h2 {
+  	font-size: 2em;
+}
+
+h3 {
+  	font-size: 1.2em;
+}
+
+p,
+li,
+blockquote {
+	line-height: 1.6em;
+}
+
+em {
+	font-style: italic;
+	font-weight: 600;
+}
+
+small {
+	font-size: 0.75em;
+}
+
+a {
+	text-decoration: underline;
+	color: inherit;
+}
+
+a.btn {
+	position: relative;
+	display: inline-block;
+	padding: 1em;
+	border: #444 solid 1px;
+	color: #444;
+	font-size: 0.9em;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 0.20em;
+	text-decoration: none;
+
+	-webkit-transition: background 0.6s, color 0.2s;
+	-moz-transition: background 0.6s, color 0.2s;
+	-o-transition: background 0.6s, color 0.2s;
+	transition: background 0.6s, color 0.2s;
+}
+
+a.btn:hover {
+	background: #444;
+	color: #fff;
+}
+
+/* ------------------------------*/
+/* ---------- HEADER ---------- */
+/* ------------------------------*/
+
+body > header {
+	
+}
+
+/* ------------------------------*/
+/* ---------- NAVIGATION ---------- */
+/* ------------------------------*/
+
+nav {
+	
+}
+
+/* ------------------------------*/
+/* ---------- CONTAINER ---------- */
+/* ------------------------------*/
+
+section.container {
+	position: relative;
+	z-index: 3;
+	width: auto;
+	background: #eee;
+}
+
+section.wrapper {
+	position: relative;
+	max-width: 1050px;
+	width: auto;
+	margin: auto;
+	padding: 0px 25px;
+}
+
+/* ------------------------------*/
+/* ---------- SPECIAL ---------- */
+/* ------------------------------*/
+
+.clear {
+	clear: both;
+}
+
+/* ------------------------------*/
+/* ---------- MEDIAQUERIES ---------- */
+/* ------------------------------*/
+
+@media only screen and (max-width: 1260px) {
+
+}
+
+@media only screen and (max-width: 1080px) {
+
+}
+
+@media only screen and (max-width: 960px) {
+
+}
+
+@media only screen and (max-width: 880px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 700px) {
+
+}
+
+@media only screen and (max-width: 648px) {
+
+}
+
+@media only screen and (max-width: 480px) {
+
+}
