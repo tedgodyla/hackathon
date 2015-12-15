@@ -91,7 +91,7 @@ a.btn:hover {
 /* ------------------------------*/
 
 body > header {
-
+    margin-top: 1em;
 }
 
 body > header .logo {
@@ -101,9 +101,10 @@ body > header .logo {
 
 body > header .logo a {
     display: block;
-    width: 10em;
-    height: 4em;
-    background: #000;
+    width: 15em;
+    height: 3.2em;
+    background-image: url(../images/teddypy.png);
+    background-size: 15em;
 }
 
 /* ------------------------------*/
@@ -129,7 +130,7 @@ nav ul.menu-right {
 nav ul > li {
     position: relative;
     display: inline-block;
-    margin: 1em 1em 0 0;
+    margin: 1em .5em 0 0;
 }
 
 nav ul > li > a {
@@ -230,6 +231,42 @@ ul.inspiration > li > header:hover {
     background: rgba(36,151,211,0.3);
     transition: .2s;
 
+}
+
+/* ------------------------------*/
+/* ---------- POPUP ---------- */
+/* ------------------------------*/
+
+.popup-background {
+	display: none;
+	position: fixed;
+	z-index: 9;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: rgba(200,200,200,0.9);
+}
+
+.popup {
+	display: none;
+	position: fixed;
+	top: 3em;
+	left: 0px;
+	width: 100%;
+	z-index: 10;
+}
+
+.popup .content {
+	background: #fff;
+	padding: 2em;
+}
+
+.popup .content .main {
+	float: left;
+	width: calc(60% - 2em);
+}
+
+.popup .content .info {
+	float: right;
+	width: 40%;
 }
 
 /* ------------------------------*/
