@@ -1,5 +1,3 @@
-	</section>
-
 	<section class="popup-background"></section>
 	<section class="popup inspiratie">
 		<section class="wrapper">

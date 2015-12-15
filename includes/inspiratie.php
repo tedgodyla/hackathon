@@ -39,16 +39,33 @@
 
 ?>
 
+<section class="container hero">
+    <section class="wrapper">
+        <div class="column-mid-left">
+        	<h1>Inspiratie</h1>
+        	<p>
+        		Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+			 	Nulla accumsan ligula nec accumsan ullamcorper. 
+			 	In hac habitasse platea dictumst.
+			  	Cum sociis natoque penatibus et magnis dis parturient montes,
+			   nascetur ridiculus mus. Integer vulputate nisi in neque pulvinar aliquam.
+			</p>
+        </div>
+        <div class="column-mid-right">
+        	<img src="http://placekitten.com/450/150" />
+        </div>
+        <div class="clear"></div>
+    </section>
+</section>
+
 <section class="container">
 	<section class="wrapper">
-		<h1>Inspiratie</h1>
 		<section class="sort">
 			Sorteer op:
 			<a<?= $newclass; ?> href="/hackathon/?page=inspiratie&sort=new">Nieuwste</a>
 			<a<?= $abcclass; ?> href="/hackathon/?page=inspiratie&sort=abc">Alfabet</a>
 			<a<?= $viewsclass; ?> href="/hackathon/?page=inspiratie&sort=views">Views</a>
 		</section>
-
 		<ul class="inspiratie gridlist">
 			<?php foreach ($items as $itemkey => $itemprops): ?>
 				<?php $faved = ($itemprops['fav'] === true) ? 'fav active' : 'fav'; ?>			

@@ -1,11 +1,12 @@
 <section class="container hero">
     <section class="wrapper">
-        <div class="column-small-left">
+        <div class="column-mid-left">
+            <img src="/hackathon/lib/images/meisjesbeer.png" alt="">
         </div>
-        <div class="column-big-right">
+        <div class="column-mid-right">
+            <img src="/hackathon/lib/images/ouderen.jpg" alt="">
         </div>
         <div class="clear"></div>
-
     </section>
 </section>
 <section class="container blue">
@@ -18,6 +19,5 @@
             <img src="/hackathon/lib/images/knuffel.png" alt="">
         </div>
         <div class="clear"></div>
-
     </section>
 </section>

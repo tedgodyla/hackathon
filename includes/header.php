@@ -47,5 +47,3 @@
 			<div class="clear"></div>
 		</section>
 	</header>
-	<section class="container">
-		<section class="wrapper"></section>

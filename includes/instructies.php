@@ -11,10 +11,27 @@
 
 ?>
 
+<section class="container hero">
+    <section class="wrapper">
+        <div class="column-mid-left">
+        	<h1>Instructies</h1>
+        	<p>
+        		Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+			 	Nulla accumsan ligula nec accumsan ullamcorper. 
+			 	In hac habitasse platea dictumst.
+			  	Cum sociis natoque penatibus et magnis dis parturient montes,
+			   nascetur ridiculus mus. Integer vulputate nisi in neque pulvinar aliquam.
+			</p>
+        </div>
+        <div class="column-mid-right">
+        	<img src="http://placekitten.com/450/150" />
+        </div>
+        <div class="clear"></div>
+    </section>
+</section>
+
 <section class="container">
 	<section class="wrapper">
-		<h1>Instructies</h1>
-
 		<ul class="instructies gridlist">
 			<?php foreach ($items as $itemkey => $itemprops): ?>
 				<li data-imgsrc="<?= $itemprops['imagename']; ?>" data-title="<?= $itemprops['title']; ?>" data-slug="<?= $itemprops['slug']; ?>">
