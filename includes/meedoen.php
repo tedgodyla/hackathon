@@ -1,4 +1,4 @@
-<section class="container hero">
+<section class="container brown">
     <section class="wrapper">
         <div class="column-mid-left">
         	<h2>Pakketen voor groepen</h2>

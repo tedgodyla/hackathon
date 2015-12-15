@@ -3,14 +3,14 @@
 		<section class="wrapper">
 			<section class="content">
 				<div class="close"></div>
-				<div class="main">
+				<div class="column-big-left main">
 					<div class="photo"></div>
 					<div class="details">
 						<div class="views"></div>
 						<div class="fav"></div>
 					</div>
 				</div>
-				<div class="info">
+				<div class="column-small-right info">
 					<h2>Door: <span></span></h2>
 					<h3>verzonden naar: Congo</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque posuere tincidunt nisi, eget tincidunt enim. Nullam vitae luctus quam. Morbi aliquam risus eget lacus tincidunt, ac sollicitudin metus euismod. Proin ante lorem, sodales ac placerat id, bibendum at mauris.</p>

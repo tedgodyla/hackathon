@@ -1,5 +1,5 @@
 <section class="container hero">
-    
+
     <section class="wrapper">
 
         <h1 class="slogan"> Keep them hugging </h1>
@@ -16,16 +16,15 @@
         <p class="readmore"> Lees meer </p>
     </section>
 </section>
-<section class="container blue">
+<section class="container white">
     <section class="wrapper">
-        <div class="column-mid-left">
+        <div class="column-small-left">
 
             <img src="/hackathon/lib/images/knuffel.png" alt="">
         </div>
-        <div class="column-mid-right">
-
-            <h2>dfasfdsafdsa</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempus nunc mi, sed sollicitudin dolor pharetra a. Aliquam erat volutpat. In hac habitasse platea dictumst. Donec eget imperdiet est, at porta tellus. Donec non tincidunt quam. Aliquam enim felis, pretium a diam nec, tristique porttitor massa. Duis at pellentesque nulla. Curabitur nisl felis, congue a nulla nec, semper interdum neque. Phasellus interdum nulla vitae tincidunt eleifend. Vivamus viverra massa eget consectetur aliquam. Donec varius libero velit, non sodales libero semper non.</p>
+        <div class="column-big-right">
+            <h2>Wat is Teddypy?</h2>
+            <p>Door Teddypy kunnen kinderen hun opgelopen trauma verwerken. Hierdoor kunnen zij genieten van het naar school gaan en nieuwe dingen leren. Op deze manier kunnen zij veilig aan hun toekomst werken. Teddypy is te personaliseren door het kind. Soorten kleuren, texturen en structuren zorgen voor veel variatie tussen de Teddypy’s. Zo draagt de Teddypy ook bij aan de toekomst dat ze er mee verder kunnen. Wil je ook helpen? Kijk wat jou school of tehuis kan doen. Zorg dat meer mensen zich hiervoor gaan inzetten.</p>
         </div>
         <div class="clear"></div>
 
