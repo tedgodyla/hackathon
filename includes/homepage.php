@@ -18,8 +18,8 @@
 <section class="container white">
     <section class="wrapper">
         <div class="column-center">
-            <h2>Deze kinderen hebben therapie nodig</h2>
-            <p>Korte dummy text hier.</p>
+            <h2> TeddyPy helpt</h2>
+            <p> Samen met de TeddyPy start het kind een verwerkingsfase, zodat er later meer plek is voor educatie.</p>
         </div>
         <div class="clear"></div>
     </section>
