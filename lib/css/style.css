@@ -19,7 +19,7 @@ body {
 
 body {
     font-family: "Open Sans", "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
-    /*padding-top: 70px;*/
+    padding-top: 4.5em;
     background: #f4f4f4;
     color: #444;
 }
@@ -99,10 +99,15 @@ a.btn:hover {
 /* ------------------------------*/
 
 body > header {
+    position: fixed;
+    z-index: 11;
     margin-top: 0em;
-    padding-top: 1em;
-    height: 5em;
+    padding-top: 0.5em;
+    height: 4em;
+    top: 0px; left: 0px;
+    width: 100%;
     background-color: #f2e9dd;
+    box-shadow: rgba(0,0,0,0.2) 0px 0px 15px;
 }
 
 body > header .logo {
@@ -127,12 +132,13 @@ nav {
 }
 
 nav ul {
+    margin-top: 0.7em;
     display: block;
 }
 
-nav ul.menu-left {
-    float: left;
-}
+/*nav ul.menu-left {
+    float: right;
+}*/
 
 nav ul.menu-right {
     float: right;
@@ -141,29 +147,26 @@ nav ul.menu-right {
 nav ul > li {
     position: relative;
     display: inline-block;
-    margin: 1em .5em 0 0;
+    margin-left: 1em;
 }
 
 nav ul > li > a {
     position: relative;
     display: block;
-    border-radius: .2em;
-    padding: 5px 8px;
     text-decoration: none;
-    background-color: #2497d3;
-    color: #FFFFFF;
-    width: 6em;
-    text-align: center;
-     transition: .2s;
+    padding: 0.3em 0.5em;
+    border-radius: 0.3em;
+
+    transition: .2s;
 }
 
 nav ul > li > a:hover {
-       background-color: #a77d4e;
-       transition: .2s;
+   background-color: #dfd2c1;
+   transition: .2s;
 }
-nav ul > li.active > a {
-    background-color: #a77d4e;
 
+nav ul > li.active > a {
+    background-color: #dfd2c1;
 }
 
 .sort {

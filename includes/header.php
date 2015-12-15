@@ -32,13 +32,11 @@
 				<a href="/hackathon"></a>
 			</div>
 			<nav>
-				<ul class="menu-left">
+				<ul class="menu-right">
 					<?php foreach ($menuItem as $menuItemKey => $menuItemValue): ?>
 						<?php $class = ($page == $menuItemValue[1]) ? " class='active'" : "" ;?>
 						<li<?= $class; ?>><a href="/hackathon/?page=<?= $menuItemValue[1]; ?>"><?= $menuItemValue[0]; ?></a></li>
 					<?php endforeach; ?>
-				</ul>
-				<ul class="menu-right">
 					<?php $class = ($page == "jouw-profiel") ? " class='active'" : "" ;?>
 					<li<?= $class; ?>><a href="/hackathon/?page=jouw-profiel">Jouw profiel</a></li>
 				</ul>
