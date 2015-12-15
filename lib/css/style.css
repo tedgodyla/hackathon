@@ -2,6 +2,11 @@
 /* ---------- MAIN ---------- */
 /* ------------------------------*/
 
+@font-face {
+	font-family: 'custom';
+	src: url('../fonts/custom.ttf');
+}
+
 html {
     font-size: 1em;
 }
@@ -26,6 +31,9 @@ body {
 h1, h2, h3, h4, h5, h6 {
     margin: 0em 0em 0em;
     line-height: 1.2em;
+    font-family: custom;
+    text-rendering: optimizeLegibility;
+    padding-top: 0.5em;
 }
 
 h1 {
@@ -178,9 +186,16 @@ ul.gridlist {
 ul.gridlist > li {
     position: relative;
     display: block;
-    width: 33.333%;
+    width: calc(33.333% - 0.666em);
+    margin-right: 1em;
+    margin-bottom: 1em;
     height: 15em;
     float: left;
+    overflow: hidden;
+}
+
+ul.gridlist > li:nth-child(3n+3) {
+    margin-right: 0;
 }
 
 ul.gridlist > li .image {
@@ -201,44 +216,34 @@ ul.gridlist > li .image a {
 ul.gridlist > li > header {
     position: absolute;
     z-index: 2;
-    bottom: 0; left: 0;
+    bottom: -2.5em;
+    left: 0;
     width: 100%;
-    height: 15em;
-    background: rgba(0,0,0,0.0);
-    transition: .5s;
+    height: 2em;
+    padding-top: 0.5em;
+    background: rgba(36,151,211,0.3);
+
+    transition: 0.5s;
+}
+
+ul.gridlist > li:hover > header {
+	bottom: 0;
 }
 
 ul.gridlist > li > header h3 {
-    float: left;
-    margin-left: 1em;
-    margin-top: 10.7em;
-    border-radius: .2em;
-    color: white;
+	float: left;
+	margin-left: 0.5em;
 }
 
-ul.gridlist > li > header h3 a{
+ul.gridlist > li > header h3 a {
+	color: #fff;
     text-decoration: none;
-    margin: 0.3em;
-    padding-left: 3em;
-    padding: 0.3em;
-        background-color: rgba(0,0,0,0.3);
 }
 
 ul.gridlist > li > header .details {
     float: right;
-    color: white;
-    margin-top: 0.3em;
-    margin-top: 12.7em;
-    margin-right: 1em;
-    padding: 0.3em;
-    margin: 0.3em;
-    background-color: rgba(0,0,0,0.3);
-}
-
-ul.gridlist > li > header:hover {
-    background: rgba(36,151,211,0.3);
-    transition: .2s;
-
+    color: #fff;
+    margin-right: 0.5em;
 }
 
 /* ------------------------------*/
