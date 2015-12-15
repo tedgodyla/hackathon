@@ -45,7 +45,7 @@
 			<a href="/hackathon/?page=inspiratie&sort=views">Views</a>
 		</section>
 
-		<ul class="inspiration">
+		<ul class="inspiratie gridlist">
 			<?php foreach ($items as $itemkey => $itemprops): ?>
 				<?php $faved = ($itemprops['fav'] === true) ? 'fav active' : 'fav'; ?>			
 				<li data-imgsrc="<?= $itemprops['imagename']; ?>" data-fav="<?= $itemprops['fav']; ?>" data-title="<?= $itemprops['title']; ?>" data-slug="<?= $itemprops['slug']; ?>" data-views="<?= $itemprops['views']; ?>">
@@ -61,6 +61,7 @@
 					</header>
 				</li>
 			<?php endforeach; ?>
+			<div class="clear"></div>
 		</ul>
 	</section>
 </section>

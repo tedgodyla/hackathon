@@ -22,17 +22,17 @@
 		</section>
 	</section>
 
-	<section class="popup instructie">
+	<section class="popup instructies">
 		<section class="wrapper">
 			<section class="content">
 				<div class="close"></div>
 				<div class="main">
 					<div class="movie">
-						<!-- <iframe width="100%" height="315" src="https://www.youtube.com/embed/3ur0vmu9E54" frameborder="0" allowfullscreen></iframe> -->
+						<iframe width="100%" height="315" src="https://www.youtube.com/embed/3ur0vmu9E54" frameborder="0" allowfullscreen></iframe>
 					</div>
 				</div>
 				<div class="info">
-					<h2>Instructiefilmpje</h2>
+					<h2><span></span> instructie</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque posuere tincidunt nisi, eget tincidunt enim. Nullam vitae luctus quam. Morbi aliquam risus eget lacus tincidunt, ac sollicitudin metus euismod. Proin ante lorem, sodales ac placerat id, bibendum at mauris.</p>
 				</div>
 				<div class="clear"></div>
