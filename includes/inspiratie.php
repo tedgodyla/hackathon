@@ -21,7 +21,7 @@
 
 	else if ($sort === 'views')
 	{
-		// sort the items by amount of views
+		// sort theitems by amount of views
 		usort($items, function($a, $b) {
 		    return $b['views'] - $a['views'];
 		});
@@ -47,23 +47,10 @@
 
 		<ul class="inspiration">
 			<?php foreach ($items as $itemkey => $itemprops): ?>
-<<<<<<< HEAD
-			<?php $faved = ($itemprops['fav'] === true) ? 'fav active' : 'fav'; ?>			
-			<li data-imgsrc="<?= $itemprops['imagename']; ?>" data-fav="<?= $itemprops['fav']; ?>" data-title="<?= $itemprops['title']; ?>" data-slug="<?= $itemprops['slug']; ?>" data-views="<?= $itemprops['views']; ?>">
-				<div class="image" style="background-image: url(/hackathon/uploads/inspiration/<?= $itemprops['imagename']; ?>);">
-					<a href="/hackathon/?page=inspiratie#<?= $itemprops['slug']; ?>"></a>
-				</div>
-				<header>
-					<h3 class="imgdetail"><a  href="/hackathon/?page=inspiratie#<?= $itemprops['slug']; ?>"><?= $itemprops['title']; ?></a></h3>
-					<div class="details">
-						<div class="views"><?= $itemprops['views']; ?></div>
-						<div class="<?= $faved; ?>"></div>
-=======
 				<?php $faved = ($itemprops['fav'] === true) ? 'fav active' : 'fav'; ?>			
 				<li data-imgsrc="<?= $itemprops['imagename']; ?>" data-fav="<?= $itemprops['fav']; ?>" data-title="<?= $itemprops['title']; ?>" data-slug="<?= $itemprops['slug']; ?>" data-views="<?= $itemprops['views']; ?>">
 					<div class="image" style="background-image: url(/hackathon/uploads/inspiration/<?= $itemprops['imagename']; ?>);">
 						<a href="/hackathon/?page=inspiratie#<?= $itemprops['slug']; ?>"></a>
->>>>>>> origin/master
 					</div>
 					<header>
 						<h3><a href="/hackathon/?page=inspiratie#<?= $itemprops['slug']; ?>"><?= $itemprops['title']; ?></a></h3>
