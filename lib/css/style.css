@@ -338,7 +338,6 @@ ul.gridlist > li > header .details {
 
 .popup .content {
     position: relative;
-    background: #fff;
     padding: 2em;
 }
 
@@ -366,6 +365,11 @@ ul.gridlist > li > header .details {
 
 .close {
     background-image: url(../images/cancel30.png);
+}
+
+section.content {
+    background: #a77d4e;
+    color: #FFF;
 }
 
 /* ------------------------------*/
